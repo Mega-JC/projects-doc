@@ -1,0 +1,17 @@
+{
+  "name": "projects-doc",
+  "version": "0.1.0",
+  "description": "Documentation repository for various things I'm working on.",
+  "main": "index.mts",
+  "scripts": {
+    "parse": "npx tsc && node build/index.mjs"
+  },
+  "author": "",
+  "dependencies": {
+    "@types/node": "^20.11.21",
+    "yaml": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
