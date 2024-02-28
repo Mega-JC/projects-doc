@@ -46,7 +46,7 @@ function parseProjectBlock(mdText: string): ProjectT {
   const frontmatterObject = parse(frontmatter);
 
   return {
-    id: frontmatterObject.title.replaceAll(/[^\w-]/g, "-"),
+    id: frontmatterObject.title.replaceAll(/[^\w-]/g, "-").replaceAll("--", "-").toLowerCase(),
     title: frontmatterObject.title,
     subtitle: frontmatterObject.subtitle,
     type: frontmatterObject.type,
