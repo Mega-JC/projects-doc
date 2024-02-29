@@ -1,13 +1,14 @@
 [
   {
-    "id": "algorithmixblog--concept-tech-blogging-platform",
+    "id": "algorithmixblog",
     "title": "Algorithmixblog - Concept Tech Blogging Platform",
-    "subtitle": "A Django-based tech blogging application",
+    "subtitle": "A concept tech blogging platform.",
     "type": "commercial",
-    "url": "https://example.com/mystical-marketplace",
-    "repo_url": "https://github.com/example/mystical-marketplace",
-    "start_date": "2022-03-01",
-    "description": "Explore a mystical marketplace where users can discover enchanted items tailored to their tastes. With advanced recommendation algorithms, personalized suggestions, and an immersive user interface, users can effortlessly find the perfect magical artifacts and potions.",
+    "repo_url": "https://github.com/Mega-JC/algorithmixblog",
+    "start_date": "2021-05-13",
+    "end_date": "2021-07-28",
+    "summary": "A concept tech blogging platform I made in 2021, as part of learning Django.",
+    "description": "# Overview\n\nA concept tech blogging platform I made in 2021, as part of learning Django under the HarvardX [CS50's Web Programming with JavaScript](https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript) course.\n\n# Description\n\nThe site offers a minimalistic interface for creating, discovering and interacting with blog posts. Users can change the visibility of their posts to be either public or private. Posts can be tagged with keywords for categorization.\n\nA user has the ability to follow other users, whose posts will then be made available in their \"Follower Feed\" page.\n\nPosts can be liked or marked as favorites, which then become available in dedicated \"Liked Posts\" or \"Favorites\" pages on the site. They can also contain comments and comment reply chains.\n\n# Remarks\n\nLooking back, there's lot of low-hanging friut in terms of UX, design decisions and security. Writing it all in pure CSS ended up working, but nowadays I would prefer to use [TailwindCSS](https://tailwindcss.com) for DX and productivity reasons.\n\n",
     "technologies": [
       "Django",
       "Python",
@@ -25,92 +26,51 @@
     "cover": {
       "title": "YT Banner",
       "type": "image",
-      "url": "https://i.ytimg.com/vi/nXzZcE1BEfI/maxresdefault.jpg",
-      "alt": "YT Video Banner Image"
+      "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+Cjxzdmcgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE5MjAgMTA4MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjI7Ij4KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDE0MS41OTgsMCwwLDIyNC4yNTUsMzMxLjY2LDU3MS43MjMpIj4KICAgICAgICA8cGF0aCBkPSJNMC4xMjUsLTAuMTI1TDAuMTI1LC0xTDAuMzc1LC0xTDAuMzc1LC0wLjI1TDAuODc1LC0wLjI1TDAuODc1LC0wLjEyNUwwLjEyNSwtMC4xMjVaIiBzdHlsZT0iZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxNDEuNTk4LDAsMCwyMjQuMjU1LDQ3My4yNTcsNTcxLjcyMykiPgogICAgICAgIDxwYXRoIGQ9Ik0wLjI1LC0wLjEyNUwwLjI1LC0wLjI1TDAuMTI1LC0wLjI1TDAuMTI1LC0wLjM3NUwwLC0wLjM3NUwwLC0wLjc1TDAuMTI1LC0wLjc1TDAuMTI1LC0wLjg3NUwwLjI1LC0wLjg3NUwwLjI1LC0xTDAuODc1LC0xTDAuODc1LC0wLjg3NUwwLjM3NSwtMC44NzVMMC4zNzUsLTAuNzVMMC4yNSwtMC43NUwwLjI1LC0wLjM3NUwwLjM3NSwtMC4zNzVMMC4zNzUsLTAuMjVMMC42MjUsLTAuMjVMMC42MjUsLTAuNUwwLjUsLTAuNUwwLjUsLTAuNjI1TDAuODc1LC0wLjYyNUwwLjg3NSwtMC4xMjVMMC4yNSwtMC4xMjVaIiBzdHlsZT0iZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxNDEuNTk4LDAsMCwyMjQuMjU1LDYxNC44NTUsNTcxLjcyMykiPgogICAgICAgIDxwYXRoIGQ9Ik0wLjI1LC0wLjEyNUwwLjI1LC0wLjI1TDAuMTI1LC0wLjI1TDAuMTI1LC0wLjM3NUwwLC0wLjM3NUwwLC0wLjc1TDAuMTI1LC0wLjc1TDAuMTI1LC0wLjg3NUwwLjI1LC0wLjg3NUwwLjI1LC0xTDAuNjI1LC0xTDAuNjI1LC0wLjg3NUwwLjc1LC0wLjg3NUwwLjc1LC0wLjc1TDAuODc1LC0wLjc1TDAuODc1LC0wLjM3NUwwLjc1LC0wLjM3NUwwLjc1LC0wLjI1TDAuNjI1LC0wLjI1TDAuNjI1LC0wLjEyNUwwLjI1LC0wLjEyNVpNMC4zNzUsLTAuMjVMMC42MjUsLTAuMjVMMC42MjUsLTAuNzVMMC41LC0wLjc1TDAuNSwtMC44NzVMMC4yNSwtMC44NzVMMC4yNSwtMC4zNzVMMC4zNzUsLTAuMzc1TDAuMzc1LC0wLjI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMTQxLjU5OCwwLDAsMjI0LjI1NSw3NTYuNDUyLDU3MS43MjMpIj4KICAgICAgICA8cGF0aCBkPSJNMCwtMC4xMjVMMCwtMUwwLjc1LC0xTDAuNzUsLTAuODc1TDAuODc1LC0wLjg3NUwwLjg3NSwtMC41TDAuNjI1LC0wLjVMMC42MjUsLTAuMzc1TDAuNzUsLTAuMzc1TDAuNzUsLTAuMjVMMC44NzUsLTAuMjVMMC44NzUsLTAuMTI1TDAuNSwtMC4xMjVMMC41LC0wLjI1TDAuMzc1LC0wLjI1TDAuMzc1LC0wLjM3NUwwLjI1LC0wLjM3NUwwLjI1LC0wLjEyNUwwLC0wLjEyNVpNMC4yNSwtMC41TDAuNSwtMC41TDAuNSwtMC42MjVMMC42MjUsLTAuNjI1TDAuNjI1LC0wLjg3NUwwLjI1LC0wLjg3NUwwLjI1LC0wLjVaIiBzdHlsZT0iZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxNDEuNTk4LDAsMCwyMjQuMjU1LDg5OC4wNSw1NzEuNzIzKSI+CiAgICAgICAgPHBhdGggZD0iTTAuMTI1LC0wLjEyNUwwLjEyNSwtMC4yNUwwLjM3NSwtMC4yNUwwLjM3NSwtMC43NUwwLjI1LC0wLjc1TDAuMjUsLTAuODc1TDAuMzc1LC0wLjg3NUwwLjM3NSwtMUwwLjYyNSwtMUwwLjYyNSwtMC4yNUwwLjg3NSwtMC4yNUwwLjg3NSwtMC4xMjVMMC4xMjUsLTAuMTI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMTQxLjU5OCwwLDAsMjI0LjI1NSwxMDM5LjY1LDU3MS43MjMpIj4KICAgICAgICA8cGF0aCBkPSJNMC4zNzUsLTAuMTI1TDAuMzc1LC0wLjg3NUwwLjEyNSwtMC44NzVMMC4xMjUsLTFMMC44NzUsLTFMMC44NzUsLTAuODc1TDAuNjI1LC0wLjg3NUwwLjYyNSwtMC4xMjVMMC4zNzUsLTAuMTI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMTQxLjU5OCwwLDAsMjI0LjI1NSwxMTgxLjI1LDU3MS43MjMpIj4KICAgICAgICA8cGF0aCBkPSJNMCwtMC4xMjVMMCwtMUwwLjI1LC0xTDAuMjUsLTAuNjI1TDAuNjI1LC0wLjYyNUwwLjYyNSwtMUwwLjg3NSwtMUwwLjg3NSwtMC4xMjVMMC42MjUsLTAuMTI1TDAuNjI1LC0wLjVMMC4yNSwtMC41TDAuMjUsLTAuMTI1TDAsLTAuMTI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMTQxLjU5OCwwLDAsMjI0LjI1NSwxMzIyLjg0LDU3MS43MjMpIj4KICAgICAgICA8cGF0aCBkPSJNMCwtMC4xMjVMMCwtMUwwLjI1LC0xTDAuMjUsLTAuODc1TDAuMzc1LC0wLjg3NUwwLjM3NSwtMC43NUwwLjUsLTAuNzVMMC41LC0wLjg3NUwwLjYyNSwtMC44NzVMMC42MjUsLTFMMC44NzUsLTFMMC44NzUsLTAuMTI1TDAuNjI1LC0wLjEyNUwwLjYyNSwtMC42MjVMMC41LC0wLjYyNUwwLjUsLTAuMzc1TDAuMzc1LC0wLjM3NUwwLjM3NSwtMC42MjVMMC4yNSwtMC42MjVMMC4yNSwtMC4xMjVMMCwtMC4xMjVaIiBzdHlsZT0iZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxNDEuNTk4LDAsMCwyMjQuMjU1LDE0NjQuNDQsNTcxLjcyMykiPgogICAgICAgIDxwYXRoIGQ9Ik0wLjEyNSwtMC4xMjVMMC4xMjUsLTAuMjVMMC4zNzUsLTAuMjVMMC4zNzUsLTAuODc1TDAuMTI1LC0wLjg3NUwwLjEyNSwtMUwwLjg3NSwtMUwwLjg3NSwtMC44NzVMMC42MjUsLTAuODc1TDAuNjI1LC0wLjI1TDAuODc1LC0wLjI1TDAuODc1LC0wLjEyNUwwLjEyNSwtMC4xMjVaIiBzdHlsZT0iZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxNDEuNTk4LDAsMCwyMjQuMjU1LDE2MDYuMDQsNTcxLjcyMykiPgogICAgICAgIDxwYXRoIGQ9Ik0wLC0wLjEyNUwwLC0wLjM3NUwwLjEyNSwtMC4zNzVMMC4xMjUsLTAuNUwwLjI1LC0wLjVMMC4yNSwtMC42MjVMMC4xMjUsLTAuNjI1TDAuMTI1LC0wLjc1TDAsLTAuNzVMMCwtMUwwLjI1LC0xTDAuMjUsLTAuNzVMMC4zNzUsLTAuNzVMMC4zNzUsLTAuNjI1TDAuNSwtMC42MjVMMC41LC0wLjc1TDAuNjI1LC0wLjc1TDAuNjI1LC0xTDAuODc1LC0xTDAuODc1LC0wLjc1TDAuNzUsLTAuNzVMMC43NSwtMC42MjVMMC42MjUsLTAuNjI1TDAuNjI1LC0wLjVMMC43NSwtMC41TDAuNzUsLTAuMzc1TDAuODc1LC0wLjM3NUwwLjg3NSwtMC4xMjVMMC42MjUsLTAuMTI1TDAuNjI1LC0wLjM3NUwwLjUsLTAuMzc1TDAuNSwtMC41TDAuMzc1LC0wLjVMMC4zNzUsLTAuMzc1TDAuMjUsLTAuMzc1TDAuMjUsLTAuMTI1TDAsLTAuMTI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMy4wMDgyOSwwLDAsMy4wMDgyOSwxODkuNjg4LDM0Ny40NjgpIj4KICAgICAgICA8cGF0aCBkPSJNMTAuNTIxLDQ2LjU5MUwxMC41MjEsNjUuMjI3TDAuMTI0LDY1LjIyN0wwLjEyNCwyNy45NTRMNi4wMDgsMjcuOTU0TDYuMDA4LDE4LjYzNkwxMS44OTIsMTguNjM2TDExLjg5Miw5LjMxOEwxNy43NzUsOS4zMThMMTcuNzc1LDBMMzUuNDI2LDBMMzUuNDI2LDM3LjI3M0w0MS4zMSwzNy4yNzNMNDEuMzEsNDYuNTkxTDM1LjQyNiw0Ni41OTFMMzUuNDI2LDY1LjIyN0wyMy42NTksNjUuMjI3TDIzLjY1OSw0Ni41OTFMMTAuNTIxLDQ2LjU5MVpNMTEuODkyLDM3LjI3M0wyMy42NTksMzcuMjczTDIzLjY1OSwxOC42MzZMMTcuNzc1LDE4LjYzNkwxNy43NzUsMjcuOTU0TDExLjg5MiwyNy45NTRMMTEuODkyLDM3LjI3M1oiIHN0eWxlPSJmaWxsLXJ1bGU6bm9uemVybzsiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDExNC4wODksMCwtMS4wNTczOWUtMTQsMTg0LjgwOCwxMTczLjc1LDc1NS42MzMpIj4KICAgICAgICA8cmVjdCB4PSIwLjI1IiB5PSItMC4zNzUiIHdpZHRoPSIwLjI1IiBoZWlnaHQ9IjAuMjUiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDExNC4wODksMCwtMS4wNTczOWUtMTQsMTg0LjgwOCwxMjg3Ljg0LDc1NS42MzMpIj4KICAgICAgICA8cGF0aCBkPSJNMCwtMC4xMjVMMCwtMUwwLjc1LC0xTDAuNzUsLTAuODc1TDAuODc1LC0wLjg3NUwwLjg3NSwtMC42MjVMMC43NSwtMC42MjVMMC43NSwtMC41TDAuODc1LC0wLjVMMC44NzUsLTAuMjVMMC43NSwtMC4yNUwwLjc1LC0wLjEyNUwwLC0wLjEyNVpNMC4yNSwtMC42MjVMMC42MjUsLTAuNjI1TDAuNjI1LC0wLjg3NUwwLjI1LC0wLjg3NUwwLjI1LC0wLjYyNVpNMC4yNSwtMC4yNUwwLjYyNSwtMC4yNUwwLjYyNSwtMC41TDAuMjUsLTAuNUwwLjI1LC0wLjI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMTE0LjA4OSwwLC0xLjA1NzM5ZS0xNCwxODQuODA4LDE0MDEuOTIsNzU1LjYzMykiPgogICAgICAgIDxwYXRoIGQ9Ik0wLjEyNSwtMC4xMjVMMC4xMjUsLTFMMC4zNzUsLTFMMC4zNzUsLTAuMjVMMC44NzUsLTAuMjVMMC44NzUsLTAuMTI1TDAuMTI1LC0wLjEyNVoiIHN0eWxlPSJmaWxsLXJ1bGU6bm9uemVybzsiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDExNC4wODksMCwtMS4wNTczOWUtMTQsMTg0LjgwOCwxNTE2LjAxLDc1NS42MzMpIj4KICAgICAgICA8cGF0aCBkPSJNMC4xMjUsLTAuMTI1TDAuMTI1LC0wLjI1TDAsLTAuMjVMMCwtMC44NzVMMC4xMjUsLTAuODc1TDAuMTI1LC0xTDAuNzUsLTFMMC43NSwtMC44NzVMMC44NzUsLTAuODc1TDAuODc1LC0wLjI1TDAuNzUsLTAuMjVMMC43NSwtMC4xMjVMMC4xMjUsLTAuMTI1Wk0wLjI1LC0wLjI1TDAuNjI1LC0wLjI1TDAuNjI1LC0wLjg3NUwwLjI1LC0wLjg3NUwwLjI1LC0wLjI1WiIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoMTE0LjA4OSwwLC0xLjA1NzM5ZS0xNCwxODQuODA4LDE2MzAuMSw3NTUuNjMzKSI+CiAgICAgICAgPHBhdGggZD0iTTAuMjUsLTAuMTI1TDAuMjUsLTAuMjVMMC4xMjUsLTAuMjVMMC4xMjUsLTAuMzc1TDAsLTAuMzc1TDAsLTAuNzVMMC4xMjUsLTAuNzVMMC4xMjUsLTAuODc1TDAuMjUsLTAuODc1TDAuMjUsLTFMMC44NzUsLTFMMC44NzUsLTAuODc1TDAuMzc1LC0wLjg3NUwwLjM3NSwtMC43NUwwLjI1LC0wLjc1TDAuMjUsLTAuMzc1TDAuMzc1LC0wLjM3NUwwLjM3NSwtMC4yNUwwLjYyNSwtMC4yNUwwLjYyNSwtMC41TDAuNSwtMC41TDAuNSwtMC42MjVMMC44NzUsLTAuNjI1TDAuODc1LC0wLjEyNUwwLjI1LC0wLjEyNVoiIHN0eWxlPSJmaWxsLXJ1bGU6bm9uemVybzsiLz4KICAgIDwvZz4KPC9zdmc+Cg==",
+      "alt": "Algorithmixblog Video Banner Image"
     },
     "attachments": [
       {
-        "title": "(Dummy Project): Demo Video",
+        "title": "Demo Video",
         "type": "video",
         "video_source": "youtube",
-        "url": "https://youtu.be/nXzZcE1BEfI"
+        "url": "https://www.youtube.com/embed/nXzZcE1BEfI?si=EnX0BHW0z3Uwv786"
       }
     ]
   },
   {
-    "id": "-dummy-project--galactic-network",
-    "title": "(Dummy Project): Galactic Network",
-    "type": "commercial",
-    "url": "https://example.com/galactic-network",
-    "start_date": "2022-01-15",
-    "description": "Join the Galactic Network, a futuristic social platform connecting beings from across the universe. Create profiles, share interstellar experiences, engage in cosmic discussions, and discover new connections from distant galaxies.",
+    "id": "pygame-community",
+    "title": "Pygame.Community - A New Website for Pygame Community",
+    "type": "open-source",
+    "url": "https://pygame.community",
+    "repo_url": "https://github.com/pygame-community/pygame.community",
+    "start_date": "2024-02-01",
+    "summary": "This is an emerging project in Python's pygame community space. We're building a new platform for [pygame(-ce)](https://pyga.me/) developers to showcase their creations. It can be considered as the spiritual successor to [pygame.org](https://www.pygame.org/).",
+    "description": "This is an emerging early stage project in Python's pygame community space. We're building a new platform for [pygame(-ce)](https://pyga.me/) developers to showcase their creations. It can be considered as the spiritual successor to [pygame.org](https://www.pygame.org/).\n\n# Details\n\n[pygame.community](https://pygame.community) is meant to replace [our current landing page](https://github.com/pygame-community) on GitHub with a full fledged site. It will serve as the place to make announcements on community events (like our [game jams](https://itch.io/jams/hosted-by-pygame-community)), as well as any relevant developments around `pygame-ce`.\n\nThe project is based on React using Next.js, and builds upon the work done in the [pyga.me](https://github.com/pygame-community/pyga.me) repository. A separate Python REST-API will be used for managing user accounts, user submissions and other information to publish on the site.\n\nThe project will be initially developed and funded by me, but will transition to a donation-based, open-source project that anyone will be free to contribute to.\n\nStay tuned for any interesting developments! More updates will be added here and on the [project page on Github](https://github.com/pygame-community/pygame.community).\n",
     "technologies": [
       "React.js",
-      "Node.js",
-      "GraphQL",
-      "MongoDB"
+      "Next.js",
+      "Flask",
+      "Figma",
+      "Python"
     ],
     "topics": [
-      "Science Fiction",
-      "Social Networking",
-      "Interstellar Communication"
+      "Game Development",
+      "Platforms",
+      "Python"
     ],
     "tags": [
-      "galactic",
-      "network",
-      "cosmic"
+      "gamedev",
+      "python",
+      "pygame",
+      "pygame-ce",
+      "platforms"
     ],
     "cover": {
-      "title": "(Dummy Project): Galactic Network",
+      "title": "Pygame Community Website Banner Image",
       "type": "image",
-      "url": "https://dummyimage.com/1000x700/ff69b4/000000",
-      "alt": "Galactic Network Cover Image"
-    },
-    "attachments": []
-  },
-  {
-    "id": "-dummy-project--zenith-fit",
-    "title": "(Dummy Project): Zenith Fit",
-    "type": "commercial",
-    "url": "https://example.com/zenith-fit",
-    "start_date": "2022-02-10",
-    "description": "Embark on a journey to wellness with Zenith Fit, a holistic fitness tracker app. Monitor physical activities, set personal goals, and achieve your peak performance. With serene design and mindful features, Zenith Fit helps you balance mind, body, and spirit.",
-    "technologies": [
-      "React Native",
-      "Firebase",
-      "Redux",
-      "Express.js"
-    ],
-    "topics": [
-      "Wellness",
-      "Fitness Tracking",
-      "Mindfulness"
-    ],
-    "tags": [
-      "zen",
-      "fitness",
-      "wellness"
-    ],
-    "cover": {
-      "title": "(Dummy Project): Zenith Fit",
-      "type": "image",
-      "url": "https://dummyimage.com/900x600/32cd32/000000",
-      "alt": "Zenith Fit Cover Image"
-    },
-    "attachments": [
-      {
-        "title": "(Dummy Project): Demo Video",
-        "type": "video",
-        "video_source": "youtube",
-        "url": "https://www.youtube.com/watch?v=demo",
-        "description": "A calming demonstration of Zenith Fit's features"
-      },
-      {
-        "title": "(Dummy Project): User Guide",
-        "type": "image",
-        "url": "https://dummyimage.com/800x1200/ff4500/000000",
-        "description": "Image guide for maximizing wellness with Zenith Fit"
-      }
-    ]
+      "url": "https://raw.githubusercontent.com/pygame-community/pygame.community/main/docs/pygame_community_website_banner.png",
+      "alt": "Pygame Community Website Banner Image"
+    }
   }
 ]
