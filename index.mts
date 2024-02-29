@@ -5,7 +5,7 @@ const PROJECT_BLOCK_REGEXP =
   /{begin-project}(?<content>\n+(?<head>---\n+(?<frontmatter>[\s\S]+?)\n+---\n+)?(?<body>[\s\S]*?)?\n+){end-project}/g;
 
 const PROJECT_CONTENT_REGEXP =
-  /(?<content>\n+(?<head>---\n+(?<frontmatter>[\s\S]+?)\n+---\n+)?(?<body>[\s\S]*?)?\n+)/;
+  /(?<content>\n+(?<head>---\n+(?<frontmatter>[\s\S]+?)\n+---\n+)?(?<body>[\s\S]*)?\n+)/;
 
 type Attachment<T extends "image" | "video" | "file"> = {
   videoSource: T extends "video" ? "youtube" | "vimeo" : undefined;
@@ -28,6 +28,7 @@ type ProjectT = {
   repo_url?: string;
   start_date: string;
   end_date?: string;
+  summary: string;
   description: string;
   technologies: string[];
   topics: string[];
@@ -46,7 +47,9 @@ function parseProjectBlock(mdText: string): ProjectT {
   const frontmatterObject = parse(frontmatter);
 
   return {
-    id: frontmatterObject.title.replaceAll(/[^\w-]/g, "-").replaceAll("--", "-").toLowerCase(),
+    id:
+      frontmatterObject.id ||
+      frontmatterObject.title.replaceAll(/[^\w]+/g, "-").toLowerCase(),
     title: frontmatterObject.title,
     subtitle: frontmatterObject.subtitle,
     type: frontmatterObject.type,
@@ -54,6 +57,7 @@ function parseProjectBlock(mdText: string): ProjectT {
     repo_url: frontmatterObject.repo_url,
     start_date: frontmatterObject.start_date,
     end_date: frontmatterObject.end_date,
+    summary: frontmatterObject.summary || projectBody.substring(0, 200),
     description: projectBody,
     technologies: frontmatterObject.technologies,
     topics: frontmatterObject.topics,
