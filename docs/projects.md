@@ -45,7 +45,7 @@ Posts can be liked or marked as favorites, which then become available in dedica
 
 # Remarks
 
-Looking back, there's lot of low-hanging friut in terms of UX, design decisions and security. Writing it all in pure CSS ended up working, but nowadays I would prefer to use [TailwindCSS](https://tailwindcss.com) for DX and productivity reasons.
+Looking back, there's a lot of low-hanging fruit in terms of UX, design decisions and security. Writing it all in pure CSS ended up working, but nowadays I would prefer to use [TailwindCSS](https://tailwindcss.com) for DX and productivity reasons.
 
 
 {end-project}
